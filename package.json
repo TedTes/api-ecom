@@ -16,7 +16,7 @@
     "node": ">= 4.4.7"
   },
   "scripts": {
-    "start": "nodemon",
+    "start": "node src/",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
