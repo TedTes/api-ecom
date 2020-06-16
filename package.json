@@ -10,15 +10,13 @@
   "license": "MIT",
   "private": true,
   "repository": {},
-  "author": {},
   "contributors": [],
   "bugs": {},
   "engines": {
     "node": ">= 4.4.7"
   },
   "scripts": {
-     "start": "serve -s build",
-    "dev": "nodemon",
+    "start": "nodemon",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
@@ -38,7 +36,6 @@
     "passport": "^0.3.2",
     "radians-degrees": "^1.0.0",
     "sequelize": "^3.24.8",
-    "serve": "^11.3.2",
     "serve-favicon": "^2.3.0",
     "sqlite3": "^4.0.3",
     "superagent": "^2.3.0",
